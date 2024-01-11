@@ -9,7 +9,7 @@ const ChatsPage = (props) => {
     return (
         <div style={{ height: '100vh' }}>
             <MultiChatSocket {...chatProps} />
-            <PrettyChatWindow {...chatProps} style={{ height: '100%' }} />
+            <MultiChatWindow {...chatProps} style={{ height: '100%' }} />
         </div>
     )
 }
